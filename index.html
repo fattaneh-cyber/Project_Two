@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+        /* Add a full-page background image */
+        body {
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+    </style>
 </head>
-<body style="background-image: url('images/background.jpg'); 
-             background-size: cover; 
-             background-repeat: no-repeat; 
-             background-position: center; 
-             color: white; 
-             text-align: center; 
-             padding: 50px;">
-
-    <!-- Simple Navigation -->
+<body>
     <ul>
-        <li><a href="index.html" style="color: white;">Home</a></li>
-        <li><a href="resume.html" style="color: white;">Resume</a></li>
-        <li><a href="page3.html" style="color: white;">Page 3</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="page3.html">Hobbies</a></li>
     </ul>
 
-    <!-- Page Title and Explanation -->
-    <h1>Welcome to My Project</h1>
-    <p>This is the home page of my first project. Here, you can explore my work and listen to some relaxing background music.</p>
+    <h1>Welcome to My Website!</h1>
 
-    <!-- 🎵 Background Music -->
-    <h2>Enjoy Some Music</h2>
-    <audio controls autoplay loop>
-        <source src="media/audio-file.mp3" type="audio/mpeg">
+    <!-- Add audio element -->
+    <audio controls>
+        <source src="media/myaudio.mp3" type="media/mpeg">
         Your browser does not support the audio element.
     </audio>
-
 </body>
 </html>
