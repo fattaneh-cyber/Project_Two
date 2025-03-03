@@ -2,30 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 3 - Movies and Pottery Showcase</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My Favorite Movies and Pottery</h1>
-    <p>Check out some of my favorite movies along with a pottery piece I made!</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="page3.html">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Section for Movie Images and Descriptions -->
-    <h2>Movies:</h2>
-    <div>
-        <img src="images/movie1.png" alt="Movie 1" style="width:200px;">
-        <p>Movie 1: A great adventure movie.</p>
+    <main>
+        <h1>My Favorite Movies and Pottery</h1>
+        <p>Check out some of my favorite movies along with a pottery piece I made!</p>
 
-        <img src="images/movie2.png" alt="Movie 2" style="width:200px;">
-        <p>Movie 2: A touching drama.</p>
+        <!-- Section for Movie Images and Descriptions -->
+        <section>
+            <h2>Movies</h2>
+            <div class="movies-container">
+                <div class="movie-item">
+                    <img src="images/movie1.png" alt="Movie 1" style="width:200px;">
+                    <p>Movie 1: A great adventure movie.</p>
+                </div>
 
-        <img src="images/movie3.png" alt="Movie 3" style="width:200px;">
-        <p>Movie 3: An inspiring story.</p>
-    </div>
+                <div class="movie-item">
+                    <img src="images/movie2.png" alt="Movie 2" style="width:200px;">
+                    <p>Movie 2: A touching drama.</p>
+                </div>
 
-    <!-- Section for Pottery Image and Description -->
-    <h2>Pottery Showcase:</h2>
-    <div>
-        <img src="images/pottery.png" alt="Beautiful Pottery" style="width:200px;">
-        <p>This is one of my favorite pottery pieces.</p>
-    </div>
+                <div class="movie-item">
+                    <img src="images/movie3.png" alt="Movie 3" style="width:200px;">
+                    <p>Movie 3: An inspiring story.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section for Pottery Image and Description -->
+        <section>
+            <h2>Pottery Showcase</h2>
+            <div class="pottery-container">
+                <img src="images/pottery.png" alt="Beautiful Pottery" style="width:200px;">
+                <p>This is one of my favorite pottery pieces.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fattaneh Kalhor</p>
+    </footer>
 </body>
 </html>

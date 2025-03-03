@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white; /* Add color for better text visibility */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
